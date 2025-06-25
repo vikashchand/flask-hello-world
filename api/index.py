@@ -308,7 +308,4 @@ def generate_text_only():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    print("Starting ChatterboxTTS API server...")
-    print(f"Output directory: {OUTPUT_DIR}")
-    print(f"Fixed output file: {OUTPUT_AUDIO_PATH}")
-    app.run(debug=True)
+   
